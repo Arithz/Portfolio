@@ -22,10 +22,7 @@
             </div>
           </ul>
           <div class="codes">
-            <p>
-              Microsoft Windows [Version 10.0.19044.2130] (c) Microsoft
-              Corporation.
-            </p>
+            <p>Microsoft Windows [Version 10.0.19044.2130] (c) Microsoft Corporation.</p>
             <p>All rights reserved.</p>
             <br />
 
@@ -82,9 +79,7 @@
                     <a href="#about" id="second">About<c>- My Background</c></a>
                   </li>
                   <li>
-                    <a href="#project" id="third"
-                      >Projects<c>- Work Experience</c></a
-                    >
+                    <a href="#project" id="third">Projects<c>- Work Experience</c></a>
                   </li>
                 </ul>
               </div>
@@ -97,11 +92,10 @@
         <div class="aboutdesc">
           <h2>I am a full-stack developer from Penang.</h2>
           <p>
-            I am now currently pursuing for my Computer Science degree at
-            University Science Malaysia.Solving problems has been always been my
-            area of interest and thats where software development shines in my
-            life. Not only I able to develop apps, I have also improved my
-            creativity skills learning UI/UX knowledge.
+            I am now currently pursuing for my Computer Science degree at University Science
+            Malaysia.Solving problems has been always been my area of interest and thats where
+            software development shines in my life. Not only I able to develop apps, I have also
+            improved my creativity skills learning UI/UX knowledge.
           </p>
         </div>
         <!-- <div class="circle"><img src="images/undraw_Team_up_re_84ok.png" alt="" /></div> -->
@@ -110,13 +104,9 @@
         <div class="educontent">
           <h1 class="title">Education</h1>
           <h2>Journey of My Academics Until Now:-</h2>
-          <p>
-            I started discovering Computer Science since my secondary school
-          </p>
+          <p>I started discovering Computer Science since my secondary school</p>
           <p>I got an average SPM result but I was still satisfied with it.</p>
-          <p>
-            I continued with my study to the University Teknologi Mara in Kedah.
-          </p>
+          <p>I continued with my study to the University Teknologi Mara in Kedah.</p>
           <p>I was able to graduate my diploma with a CGPA of 3.89</p>
           <p>I was delighted seeing the news I got admitted to enter USM!</p>
         </div>
@@ -124,80 +114,19 @@
       <section class="skills">
         <div class="title"><h1>SKILLS</h1></div>
         <div class="skillscontent">
-          <!-- <div>
-            <div class="topic">Web Dev Skill</div>
-            <div class="topiccontent">
-              <h3>Languages I use:</h3>
-              <ul>
-                <li>HTML</li>
-                <li>Javascript</li>
-                <li>PHP</li>
-                <li>MySQL</li>
-                <li>CSS</li>
-                <li>Java</li>
-                <li>C++</li>
-              </ul>
-            </div>
+          <div class="box red">
+            <h2 style="color: hsl(0, 78%, 62%)">Programming Skills</h2>
+            <h3>Languages I use:</h3>
+            <p>C++, Java, Javascript, HTML, CSS, Google App Script, PHP</p>
+            <h3>Softwares I use:</h3>
+            <p>Visual Studio Code, Github, XAMPP, Visual Studio, Eclipse,</p>
+            <img src="images/coding.png" alt="" />
           </div>
-          <div></div>
-          <div></div>
-          <div></div> -->
-
-          <style>
-            .skillsc2 {
-              display: flex;
-              flex-direction: row;
-              height: 100%;
-              width: auto;
-              background: maroon;
-            }
-            .skillsnav {
-              display: flex;
-              flex-direction: column;
-              height: 100%;
-              width: 200px;
-              gap: 5px;
-            }
-            .skillsnav div {
-              border: 1px solid black;
-              background: whitesmoke;
-              width: auto;
-              height: auto;
-              border-radius: 5px;
-              padding: 10px 20px;
-              box-shadow: px 5px 10px rgb(65, 65, 65);
-            }
-          </style>
-
-          <div class="skillsc2">
-            <div class="skillsnav">
-              <div id="skill1">Programing</div>
-              <div id="skill2">Leadership</div>
-              <div id="skill3">Others</div>
-            </div>
-            <div class="skillsdesc">
-              <div class="programming">
-                <h2>Languages I use:</h2>
-                <p>C++, Java, PHP,C</p>
-                <h2>Softwares I use:</h2>
-                <p>
-                  Visual Studio Code, Visual Studio, Eclipse, Dev C++, XAMPP,
-                  MySQL
-                </p>
-                <div class="skillsummary">
-                  <div class="left"></div>
-                  <div class="right"></div>
-                </div>
-              </div>
-              <div class="leadership">
-                <h2>Social capabilities</h2>
-                <p>Lead others, .....</p>
-              </div>
-
-              <div class="others">
-                <h2></h2>
-              </div>
-            </div>
+          <div class="box orange">
+            <h2 style="color: hsl(34, 97%, 64%)">Others</h2>
+            <h3>Languages I use:</h3>
+            <p>Scans our talent network to create the optimal team for your project</p>
+            <img src="images/inspiration.png" alt="" />
           </div>
         </div>
       </section>
@@ -212,6 +141,7 @@
       --colorcmd: #1e1b1b;
       --colorpurple: #47278e;
       --colorpink: #c82760;
+      --grayishBlue: hsl(229, 6%, 66%);
     }
 
     * {
@@ -676,7 +606,7 @@
       /* background: pink; */
       height: fit-content;
       padding-bottom: 50px;
-      padding-left: 5%;
+      /* padding-left: 5%; */
       padding-right: 5%;
       justify-content: center;
       align-items: center;
@@ -754,10 +684,14 @@
     .educontent {
       /* background: maroon; */
       height: 100%;
-      width: 100%;
+      width: auto;
       max-width: 1200px;
       margin-bottom: 50px;
       padding-left: 0%;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding-left: 5%;
     }
 
     .education h1 {
@@ -825,23 +759,48 @@
     .skillscontent {
       padding-top: 5%;
       /* background: #c82760; */
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
       gap: 20px;
-      box-sizing: border-box;
       margin: auto;
       text-align: center;
     }
 
-    /* .skillscontent > div {
-      padding: 30px;
-      background: gray;
-      border-radius: 10px;
-      height: 400px;
+    .box h3 {
+      color: var(--grayishBlue);
+      font-size: 1.5em;
+      padding-top: 30px;
     }
-    .skillscontent .topic {
+
+    .box p {
+      color: whitesmoke;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .box {
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 5px 5px 20px #0000009c;
+      padding: 50px 30px;
       color: white;
-    } */
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .red {
+      border-top: 3px solid hsl(0, 78%, 62%);
+    }
+    .orange {
+      border-top: 3px solid hsl(34, 97%, 64%);
+    }
+
+    .box img {
+      width: 50px;
+      height: 50px;
+      float: right;
+    }
 
     @media screen and (max-width: 1072px) {
       body {
@@ -914,6 +873,13 @@
       }
       .educontent {
         padding-left: 0%;
+      }
+
+      .skillscontent {
+        flex-direction: column;
+      }
+      .box {
+        width: auto;
       }
     }
   </style>

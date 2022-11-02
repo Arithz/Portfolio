@@ -22,21 +22,14 @@
             </div>
           </ul>
           <div class="codes">
-            <p>
-              Microsoft Windows [Version 10.0.19044.2130] (c) Microsoft
-              Corporation.
-            </p>
+            <p>Microsoft Windows [Version 10.0.19044.2130] (c) Microsoft Corporation.</p>
             <p>All rights reserved.</p>
             <br />
 
             <div class="hello">
               <p>C:\Users\Harithz></p>
-
-              <span id="typeline"></span>
               <p>Hello World!</p>
-            </div>
-            <div class="cssociety">
-              <h2 data-text="CS SOCIETY">CS SOCIETY</h2>
+              <span id="typeline"></span>
             </div>
           </div>
         </div>
@@ -51,14 +44,10 @@
           </div>
           <div class="rightnavbar">
             <li>
-              <a href="https://wa.me/60174560946"
-                ><img src="images/whatsapp.png" alt=""
-              /></a>
+              <a href="https://wa.me/60174560946"><img src="images/whatsapp.png" alt="" /></a>
             </li>
             <li>
-              <a href="https://github.com/Arithz"
-                ><img src="images/github.png" alt=""
-              /></a>
+              <a href="https://github.com/Arithz"><img src="images/github.png" alt="" /></a>
             </li>
             <li>
               <a href="https://www.instagram.com/harithfathiz/?hl=en"
@@ -87,9 +76,7 @@
                 <h1>Go To</h1>
                 <ul>
                   <li>
-                    <a href="index.html" id="first"
-                      >Home<c>- Landing Page</c></a
-                    >
+                    <a href="index.html" id="first">Home<c>- Landing Page</c></a>
                   </li>
                   <li>
                     <a href="#about" id="second">About<c>- My Background</c></a>
@@ -108,11 +95,10 @@
         <div class="aboutdesc">
           <h2>I am a full-stack developer from Penang.</h2>
           <p>
-            I am now currently pursuing for my Computer Science degree at
-            University Science Malaysia.Solving problems has been always been my
-            area of interest and thats where software development shines in my
-            life. Not only I able to develop apps, I have also improved my
-            creativity skills learning UI/UX knowledge.
+            I am now currently pursuing for my Computer Science degree at University Science
+            Malaysia.Solving problems has been always been my area of interest and thats where
+            software development shines in my life. Not only I able to develop apps, I have also
+            improved my creativity skills learning UI/UX knowledge.
           </p>
         </div>
         <!-- <div class="circle"><img src="images/undraw_Team_up_re_84ok.png" alt="" /></div> -->
@@ -121,13 +107,9 @@
         <div class="educontent">
           <h1 class="title">Education</h1>
           <h2>Journey of My Academics Until Now:-</h2>
-          <p>
-            I started discovering Computer Science since my secondary school
-          </p>
+          <p>I started discovering Computer Science since my secondary school</p>
           <p>I got an average SPM result but I was still satisfied with it.</p>
-          <p>
-            I continued with my study to the University Teknologi Mara in Kedah.
-          </p>
+          <p>I continued with my study to the University Teknologi Mara in Kedah.</p>
           <p>I was able to graduate my diploma with a CGPA of 3.89</p>
           <p>I was delighted seeing the news I got admitted to enter USM!</p>
         </div>
@@ -136,26 +118,21 @@
         <div class="title"><h1>SKILLS</h1></div>
         <div class="skillscontent">
           <div class="box red">
-            <h2 style="color: hsl(0, 78%, 62%);">Programming Skills</h2>
+            <h2 style="color: hsl(0, 78%, 62%)">Programming Skills</h2>
             <h3>Languages I use:</h3>
             <p>C++, Java, Javascript, HTML, CSS, Google App Script, PHP</p>
             <h3>Softwares I use:</h3>
-            <p>
-              Visual Studio Code, Github, XAMPP(MySQL), Visual Studio, Eclipse,
-              IntelliJ
-            </p>
+            <p>Visual Studio Code, Github, XAMPP(MySQL), Visual Studio, Eclipse, IntelliJ</p>
             <h3>Frameworks I use:</h3>
             <p>React, Express JS, Javascript, Bootstrap</p>
             <img src="images/coding.png" alt="" />
           </div>
           <div class="box orange">
-            <h2 style="color: hsl(34, 97%, 64%);">Others</h2>
+            <h2 style="color: hsl(34, 97%, 64%)">Others</h2>
             <h3>Communication skills:</h3>
             <p>Great at team leadership, Proficient in being a communicator</p>
             <h3>Art skills:</h3>
-            <p>
-              Adobe Photoshop, Premiere, Krita, Blender, Krita, Spark AR studio
-            </p>
+            <p>Adobe Photoshop, Premiere, Krita, Blender, Krita, Spark AR studio</p>
             <h3>Extra skills:</h3>
             <p>Experienced using OBS/Streamlabs OBS, Unity, Unreal Engine</p>
             <img src="images/inspiration.png" alt="" />
@@ -207,88 +184,12 @@
       opacity: 100%;
     }
 
-    .cssociety h2 {
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-      letter-spacing: 5px;
-      font-size: 4em;
-      margin-top: 20%;
-      justify-content: center;
-      text-align: center;
-      animation: appear 200ms 3s forwards, glitch1 430ms infinite;
-      opacity: 0;
-    }
-
     @keyframes appear {
       from {
         opacity: 0;
       }
       to {
         opacity: 0.7;
-      }
-    }
-
-    .cssociety h2::before,
-    .cssociety h2::after {
-      content: attr(data-text);
-      position: absolute;
-      letter-spacing: 5px;
-      opacity: 0.7;
-    }
-    .cssociety h2::after {
-      transform: translateX(-100%);
-      white-space: nowrap;
-      animation: glitch3 333ms infinite;
-    }
-    .cssociety h2::before {
-      animation: glitch2 675ms infinite;
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .cssociety h2,
-      .cssociety::before,
-      .cssociety::after {
-        transition-delay: 0s !important;
-        animation-delay: -1ms !important;
-        scroll-behavior: auto !important;
-        animation-duration: 1ms !important;
-        transition-duration: 0s !important;
-        animation-iteration-count: 1 !important;
-        background-attachment: initial !important;
-      }
-    }
-
-    @keyframes glitch1 {
-      0% {
-        text-shadow: 0px 5px 0px red;
-      }
-      50% {
-        text-shadow: 5px 0px 0px red;
-      }
-      100% {
-        text-shadow: 0px -5px 0px red;
-      }
-    }
-    @keyframes glitch2 {
-      0% {
-        text-shadow: 0px -5px 0px blue;
-      }
-      50% {
-        text-shadow: 5px 0px 0px blue;
-      }
-      100% {
-        text-shadow: 0px 5px 0px blue;
-      }
-    }
-    @keyframes glitch3 {
-      0% {
-        text-shadow: -5px 0px 0px green;
-      }
-      50% {
-        text-shadow: 0px 5px 0px green;
-      }
-      100% {
-        text-shadow: 5px 0px 0px green;
       }
     }
 
@@ -383,10 +284,9 @@
     .codes .hello {
       display: flex;
       flex-direction: row;
+      float: left;
     }
     .codes .hello #typeline {
-      position: absolute;
-      transform: translateX(240px);
       display: block;
       content: "_";
       font-weight: bold;
@@ -886,8 +786,8 @@
       padding: 2% 5%;
       background: var(--colorcmd);
       color: white;
-      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+        Geneva, Verdana, sans-serif;
       letter-spacing: 3px;
       text-align: center;
       font-size: 12px;
